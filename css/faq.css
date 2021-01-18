@@ -1,0 +1,89 @@
+body {
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+.accordian {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  margin-top: 100px;
+
+}
+
+.accordian-item {
+   background-color: white;
+
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.accordian-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordian-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  right: 1rem;
+  /* transition: all 0.2s ease; */
+}
+
+.accordian-item-header.active::after {
+  content: "\2212";
+}
+
+.accordian-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordian-item-body-content {
+  padding: 1rem;
+  line-height: 1.5;
+  border-top: 1px solid #34495e;
+  
+}
+
+.accordian-item-body-content p{
+
+    color: white !important;
+}
+
+
+.accordian-item-body {
+    background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 0px 0px 5px 5px;
+
+
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+

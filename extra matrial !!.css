@@ -1,0 +1,1033 @@
+.about-icon span.fa {
+    font-size: 2em;
+    color: #047ffc;
+}
+.main-title-text h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+    background: #59BBBB;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*===========================================================*/
+
+.form-group1 {
+    width: 90%;
+    margin: 20px;
+  }
+  .select-form-group1 {
+    
+    border: 2px solid #59BBBB;
+    position: relative;
+    border-radius: 3px;
+    background: #fff;
+    border-radius:30px;
+  }
+  .select-form-group1 select {
+    width: 100%;
+  
+    
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+  .select-form-group1:after {
+  
+    
+    font-size: 24px;
+    color: #34bf49;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    
+  }
+  
+  /*-------------------------------------------------------------------------city container2-----------------------------------------------------------*/
+  
+  .form-group2 {
+      width: 90%;
+    margin: 20px;
+    }
+    .select-form-group2 {
+      
+      border: 2px solid #59BBBB;
+      position: relative;
+      border-radius: 3px;
+      background: #fff;
+      border-radius:30px;
+    }
+    .select-form-group2 select {
+      width: 100%;
+    
+      
+      background: transparent;
+      font-size: 16px;
+      outline: none;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+    }
+    .select-form-group2:after {
+    
+      font-family: 'material icons';
+      font-size: 24px;
+      color: #34bf49;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      
+    }
+    
+    /*-----------------------------------------------------------------city container3-----------------------------------------------------------*/
+  
+    .form-group3 {
+      width: 90%;
+    margin: 20px;
+    }
+    .select-form-group3 {
+      
+      border: 2px solid #59BBBB;
+      position: relative;
+      border-radius: 3px;
+      background: #fff;
+      border-radius:30px;
+    }
+    .select-form-group3 select {
+      width: 100%;
+    
+      
+      background: transparent;
+      font-size: 16px;
+      outline: none;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+    }
+    .select-form-group3:after {
+    
+      font-family: 'material icons';
+      font-size: 24px;
+      color: #34bf49;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      
+    }
+    
+    /*-----------------------------------------------------------------------------------city container------------------*/
+
+/*==================================>
+    <div class="dropdownE1">
+						<button class="dropbtnE1"><p>Resources  <i class="arrow down"></i></p></button>
+						<div class="dropdown-contentE1">
+						  <a href="blog.html">Blogs</a>
+						  <a href="casestudy.html">Casestudy</a>
+						  <a href="webinar.html">Webinar</a>
+						  <a href="interview.html">Interviews</a>
+						</div>
+					  </div>
+					  </li>
+					  <li>
+
+					  <div class="dropdownE1">
+						<button class="dropbtnE1"><p>Activities	<i class="arrow down"></i></p></button>
+						<div class="dropdown-contentE1">
+						  <a href="photography_tour.html">Photography Tours</a>
+						  <a href="luxury.html">Group Luxury Tours</a>
+						  <a href="backpack.html">Backpack Tours</a>
+						  <a href="query.html">Custom Tours</a>
+						</div>
+            </div>
+            
+            ====================================================Nvbar==============================*/
+
+
+            /*====================================================Nvbar==============================
+            <!-- header -->
+<header>
+	<div class="container">
+		<!-- nav -->
+		<nav class="py-md-4 py-3 d-lg-flex">
+			<div id="logo">
+				<h1 class="mt-md-0 mt-2"> <a href="index.html"><span class="fa fa-map-signs"></span> TRAVEL .IO </a></h1>
+			</div>
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+				  	<a href="index.html"><img src="https://img.icons8.com/color/48/000000/google-home.png"/>Home</a>
+				  	<a href="package.html"><img src="https://img.icons8.com/color/48/000000/around-the-globe.png"/>Package</a>
+					<a href="blog.html"><img src="https://img.icons8.com/color/48/000000/blogger.png"/>Blogs</a>
+					<a href="casestudy.html"><img src="https://img.icons8.com/color/48/000000/view-file.png"/>CaseStudy</a>
+				  	<a href="webinar.html"><img src="https://img.icons8.com/color/48/000000/video-conference.png"/>Webinar</a>
+				  	<a href="interview.html"><img src="https://img.icons8.com/color/48/000000/collaboration.png"/>Interview</a>
+				  	<a href="photography_tour.html"><img src="https://img.icons8.com/color/48/000000/camera.png"/>Photography Tour</a>
+				  	<a href="luxury.html"><img src="https://img.icons8.com/color/48/000000/cruise-ship.png"/>Group Luxury Tour</a>
+				  	<a href="backpack.html"><img src="https://img.icons8.com/color/48/000000/trekking.png"/>Backpack Tour</a>
+				  	<a href="query.html"><img src="https://img.icons8.com/color/48/000000/headset.png"/>Custom Tour</a>
+				  	<a href="about.html"><img src="https://img.icons8.com/color/48/000000/link-company-parent.png"/>About Us</a>
+				  	<a href="contact.html"><img src="https://img.icons8.com/color/48/000000/add-phone.png"/>Contact Us</a>
+					<a href="login.html"><img src="https://img.icons8.com/color/48/000000/enter-2.png"/>Login</a>
+				</div>
+			  </div>
+			  
+			  
+			  <span class="act" onclick="openNav()">&#9776;</span>
+		</nav>
+		<!-- //nav -->
+	</div>
+</header>
+<!-- //header -->
+
+====================================================Nvbar==============================*/
+
+
+
+
+/*====================================================Nvbar==============================*/
+
+
+/*-- header --*/
+
+header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.toggle,
+[id^=drop] {
+display: none;
+}
+
+
+nav { 
+margin:0;
+padding: 0;
+}
+
+
+#logo a {
+float: left;
+  font-size: .7em;
+  display: initial;
+  margin: 0;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 0px 0;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+}
+#logo a span.fa {
+  color: #fff;
+}
+
+
+
+nav:after {
+content:"";
+display:table;
+clear:both;
+}
+
+nav ul {
+float:right;
+padding:0;
+margin:0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+margin: 0px;
+display:inline-block;
+  
+  
+}
+
+
+nav a {
+  color: #ddd;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding-left: 0;
+  padding-right: 0;
+padding: 10px 13px;
+  font-weight: 400;
+  font-size: 15px;
+  vertical-align: middle;
+  
+}
+
+
+
+nav ul li ul li:hover { 
+  background: #f8f9fa;
+}
+
+
+nav a:hover { 
+color: #ddd;
+}
+.menu li.active  a{ 
+color: #fff;
+}
+
+nav ul ul {
+display: none;
+position: absolute; 
+
+top: 30px; 
+  background: #fff;
+  padding: 10px;
+}
+
+
+nav ul li:hover > ul {
+  
+display:inherit;
+}
+
+nav ul ul li {
+width:170px;
+float:none;
+display:list-item;
+position: relative;
+}
+nav ul ul li a {
+  color: #333;
+  padding: 5px 10px;
+  display: block;
+}
+
+nav ul ul ul li {
+position: relative;
+top:-60px;
+left:170px; 
+}
+
+li > a:only-child:after { content: ''; }
+
+
+/*------------------------------------------------------------------------------Media Queries--------------------------------------------- */
+
+@media all and (max-width : 991px) {
+
+#logo {
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align:center;
+  float: none;
+  }
+  
+.menu li.active a {
+  color: #59BBBB;
+
+}
+nav ul li span {
+  color: rgb(247, 247, 247);
+}
+nav {
+  margin: 0;
+}
+nav a {
+  color: rgb(255, 255, 255);
+}
+
+
+.toggle + a,
+.menu {
+  display: none;
+}
+
+
+.toggle {
+  display: block;
+  padding: 5px 12px;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  float: right;
+  background-color: #047ffc;
+  color: #fff;
+      margin-bottom: 0;
+      border-radius: 20px;
+      
+}
+.menu .toggle {
+  float: none;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  
+  }
+  
+
+
+.toggle:hover {
+      color:#ffffff;
+      background-color: #59BBBB;
+      border-radius: 20px;
+          
+      
+  
+}
+
+
+[id^=drop]:checked + ul {
+  display: block;
+  background: rgb(0, 0, 0);
+  padding: 15px 0;
+  width:100%;
+      text-align: center;
+      border-radius: 20px;
+     
+}
+
+nav ul li {
+  display: block;
+  width: 100%;
+  padding: 7px 0;
+  }
+nav a{
+  padding: 5px 0;
+}
+nav a:hover {
+      color: rgb(235, 241, 241);
+      
+      
+}
+.login-icon {
+  text-align: center;
+}
+nav ul ul .toggle,
+nav ul ul a {
+  padding: 0 40px;
+}
+
+nav ul ul ul a {
+  padding: 0 80px;
+}
+
+nav a:hover,
+ nav ul ul ul a {
+  background-color:transparent;
+}
+
+nav ul li ul li .toggle,
+nav ul ul a,
+nav ul ul ul a{
+  padding:14px 20px;	
+  color:#FFF;
+  font-size:17px; 
+}
+
+
+nav ul li ul li .toggle,
+nav ul ul a {
+  background-color: #fff; 
+}
+nav ul ul li a {
+  font-size: 15px;
+}
+ul.inner-ul{
+  padding: 0!important;
+}
+
+nav ul ul {
+  float: none;
+  position:static;
+  color: #ffffff;
+  
+}
+  
+nav ul ul li:hover > ul,
+nav ul li:hover > ul {
+  display: none;
+}
+  
+nav ul ul li {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+nav ul ul ul li {
+  position: static;
+
+  }
+  
+
+}
+
+
+
+
+.overlay {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+background-color:black;
+overflow-x:hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 10%;
+width: 100%;
+text-align: center;
+margin-top: 10px;
+
+}
+
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 30px;
+color: #818181;
+display: block;
+transition: 0.3s;
+
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+.act{
+
+position: absolute;
+right: 25px;
+cursor: pointer;
+font-size: 40px;
+top: 20px;
+
+
+}
+
+@media screen and (max-height: 400px) {
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+font-size: 40px;
+top: 15px;
+right: 35px;
+}
+
+}
+
+/*===============================================
+
+<div class="container-fluid pt-5">
+	<section class="site-section py-sm">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-6">
+			<h2 class="mb-4" style="color: yellowgreen;font-style: italic;">Latest Posts</h2>
+		  </div>
+		</div>
+		<div class="row blog-entries">
+		  <div class="col-md-12 col-lg-12 main-content">
+			<div class="row">
+				<!--     blog post card    1     -->
+				<div class="col-md-4">
+					<a href="single_blog.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
+					  <img src="images/blog/blog2.jpg" alt="Image placeholder">
+					  <div class="blog-content-body">
+						<div class="post-meta">
+							<span class="author mr-2"><img src="https://img.icons8.com/color/38/000000/blogger.png"/>Author name</span>&bullet;
+						  <span class="mr-2">March 25, 2020 </span> &bullet;
+						  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+						</div>
+						<h2>WILL THE CORONAVIRUS CHANGE HOW YOU LIVE? </h2>
+					  </div>
+					</a>
+				  </div>
+			  <!--      blog post card end        -->
+			  <!--     blog post card     2    -->
+			  <div class="col-md-4">
+				<a href="single_blog2.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
+				  <img src="images/blog/miami.jpg" alt="Image placeholder">
+				  <div class="blog-content-body">
+					<div class="post-meta">
+						<span class="author mr-2"><img src="https://img.icons8.com/color/38/000000/blogger.png"/>Author name</span>&bullet;
+					  <span class="mr-2">March 25, 2020 </span> &bullet;
+					  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+					</div>
+					<h2>Things to Do in Miami (Florida) </h2>
+				  </div>
+				</a>
+			  </div>
+			  <!--      blog post card end        -->
+  
+			  
+  
+			  <!--     blog post card    3     -->
+			  <div class="col-md-4">
+				<a href="single_blog3.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
+				  <img src="images/blog/blog1.jpg" alt="Image placeholder">
+				  <div class="blog-content-body">
+					<div class="post-meta">
+					  <span class="author mr-2"><img src="https://img.icons8.com/color/38/000000/blogger.png"/>Author name</span>&bullet;
+					  <span class="mr-2">March 25, 2020 </span> &bullet;
+					  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+					</div>
+					<h2>Things to Do in INDIA </h2>
+				  </div>
+				</a>
+			  </div>
+			  <!--      blog post card end        -->
+  
+			   <!--     blog post card     4    -->
+			   <div class="col-md-4">
+				<a href="single_blog4.html" class="blog-entry element-animate" data-animate-effect="fadeIn">
+				  <img src="images/blog/blog4.jpg" alt="Image placeholder">
+				  <div class="blog-content-body">
+					<div class="post-meta">
+						<span class="author mr-2"><img src="https://img.icons8.com/color/38/000000/blogger.png"/>Author name</span>&bullet;
+					  <span class="mr-2">March 25, 2020 </span> &bullet;
+					  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+					</div>
+					<h2>Dubai is back in business; reopens beaches and major parks !!</h2>
+				  </div>
+				</a>
+			  </div>
+			  <!--      blog post card end        -->
+  
+			  <!--     blog post card         -->
+			  <div class="col-md-4">
+				<a href="#" class="blog-entry element-animate" data-animate-effect="fadeIn">
+				  <img src="images/blog/blog5.jpg" alt="Image placeholder">
+				  <div class="blog-content-body">
+					<div class="post-meta">
+						<span class="author mr-2"><img src="https://img.icons8.com/color/38/000000/blogger.png"/>Author name</span>&bullet;					 
+						 <span class="mr-2">March 25, 2020 </span> &bullet;
+					  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+					</div>
+					<h2>How to Find the Video Games for Cats</h2>
+				  </div>
+				</a>
+			  </div>
+			  <!--      blog post card end        -->
+  
+			  <!--     blog post card         -->
+			  <div class="col-md-4">
+				<a href="#" class="blog-entry element-animate" data-animate-effect="fadeIn">
+				  <img src="https://i.ibb.co/stmXFvC/dawid-zawila-zb2v-Ba-HYB2-I-unsplash.jpg" alt="Image placeholder">
+				  <div class="blog-content-body">
+					<div class="post-meta">
+						<span class="author mr-2"><img src="https://img.icons8.com/color/38/000000/blogger.png"/>Author name</span>&bullet;
+					  <span class="mr-2">March 25, 2020 </span> &bullet;
+					  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+					</div>
+					<h2>How to Find the Video Games for Cats</h2>
+				  </div>
+				</a>
+			  </div>
+			  <!--      blog post card end        -->
+  
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+  </div>
+/-----------------------------------=======================================================--*/
+
+body {
+  
+  font-family: Helvetica, sans-serif;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+  }
+  @import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
+  header:after, #timeline .timeline-item:after, header:before, #timeline .timeline-item:before {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: "Dosis", arial, tahoma, verdana;
+    font-weight: 500;
+  }
+  
+  .project-name {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-style: italic;
+  }
+  
+  header {
+  background: #2b2e48;
+    padding: 10px;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  }
+  header .logo {
+    color: #ee4d4d;
+    float: left;
+    font-family: "Dosis", arial, tahoma, verdana;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  header .logo > span {
+    color: #f7aaaa;
+    font-weight: 300;
+  }
+  header .social {
+    float: right;
+  }
+  header .social .btn {
+    font-family: "Dosis";
+    font-size: 14px;
+    margin: 10px 5px;
+  }
+  
+  #timeline {
+    width: 100%;
+    margin: 30px auto;
+    position: relative;
+    padding: 0 10px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  #timeline:before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #ee4d4d;
+    left: 50%;
+    top: 0;
+    position: absolute;
+  }
+  #timeline:after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+  }
+  #timeline .timeline-item {
+    margin-bottom: 50px;
+    position: relative;
+  }
+  #timeline .timeline-item .timeline-icon {
+    background: #ee4d4d;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    margin-left: -23px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+  #timeline .timeline-item .timeline-icon svg {
+    position: relative;
+    top: 14px;
+    left: 14px;
+  }
+  #timeline .timeline-item .timeline-content {
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #timeline .timeline-item .timeline-content h2 {
+    padding: 15px;
+    background: #ee4d4d;
+    color: #fff;
+    margin: -20px -20px 0 -20px;
+    font-weight: 300;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -ms-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+  }
+  #timeline .timeline-item .timeline-content:before {
+    content: '';
+    position: absolute;
+    left: 45%;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #ee4d4d;
+  }
+  #timeline .timeline-item .timeline-content.right {
+    float: right;
+  }
+  #timeline .timeline-item .timeline-content.right:before {
+    content: '';
+    right: 45%;
+    left: inherit;
+    border-left: 0;
+    border-right: 7px solid #ee4d4d;
+  }
+  
+  .btn {
+    padding: 5px 15px;
+    text-decoration: none;
+    background: transparent;
+    border: 2px solid #f27c7c;
+    color: #f27c7c;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -ms-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+    -webkit-box-shadow: 2px 2px 0 #f27c7c;
+    -moz-box-shadow: 2px 2px 0 #f27c7c;
+    -ms-box-shadow: 2px 2px 0 #f27c7c;
+    box-shadow: 2px 2px 0 #f27c7c;
+  }
+  .btn:hover {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+    -webkit-box-shadow: 2px 2px 0 transparent;
+    -moz-box-shadow: 2px 2px 0 transparent;
+    -ms-box-shadow: 2px 2px 0 transparent;
+    box-shadow: 2px 2px 0 transparent;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #timeline {
+      margin: 30px;
+      padding: 0px;
+      width: 90%;
+    }
+    #timeline:before {
+      left: 0;
+    }
+    #timeline .timeline-item .timeline-content {
+      width: 90%;
+      float: right;
+    }
+    #timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before {
+      left: 10%;
+      margin-left: -6px;
+      border-left: 0;
+      border-right: 7px solid #ee4d4d;
+    }
+    #timeline .timeline-item .timeline-icon {
+      left: 0;
+    }
+    .lux img{
+      height: 230px;
+    }
+  }
+/*========================================================================lUXURY PAGE !!===============================*/  
+
+<section class="testimonials py-5" id="testi">
+  <div class="container py-lg-5 py-md-3">
+      <h3 class="heading text-capitalize text-center mb-lg-5 mb-4"> What Our Expert Staf Say</h3>
+    <div class="row pt-xl-4">
+      <div class="col-md-4 test-grid px-lg-4">
+        <div class="testi-info text-center">
+          <p class="text-li">"Sed ut perspiciatis unde omnis ist natus error sit volup tatem acu antium dolor tium sed e ullam dolor amet.</p>
+          <div class="test-img text-center mt-4">
+            <img src="images/t4.jpg" class="img-fluid" alt="user-image">
+          </div>
+          <h3 class="mt-md-4 mt-3">neil</h3>
+        </div>
+      </div>
+      <div class="col-md-4 test-grid px-lg-4 my-md-0 my-5">
+        <div class="testi-info text-center">
+          <p class="text-li">"Sed ut perspiciatis unde omnis ist natus error sit volup tatem acu antium dolor tium sed e ullam dolor amet.</p>
+          <div class="test-img text-center mt-4">
+            <img src="images/t2.jpg" class="img-fluid" alt="user-image">
+          </div>
+          <h3 class="mt-md-4 mt-3">Johnson</h3>
+        </div>
+      </div>
+      <div class="col-md-4 test-grid px-lg-4">
+        <div class="testi-info text-center">
+          <p class="text-li">"Sed ut perspiciatis unde omnis ist natus error sit volup tatem acu antium dolor tium sed e ullam dolor amet.</p>
+          <div class="test-img text-center mt-4">
+            <img src="images/t3.jpg" class="img-fluid" alt="user-image">
+          </div>
+          <h3 class="mt-md-4 mt-3">Mark</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+/*==================================================================================================*/
+<section class="trav-grids py-5" id="desti">
+  <div class="container py-xl-5 py-lg-3">
+    <h3 class="heading text-capitalize text-center mb-lg-5 mb-4">Trending Places</h3>
+    <div class="row">
+      <div class="col-lg-6 mt-4">
+        <div class="grids-tem-one">
+          <div class="row">
+            <div class="col-sm-5 grids-img-left">
+              <img src="images/servicemanali.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-7 right-cont">
+              <h4 class="mb-2 let mt-sm-0 mt-2 tm-clr">Rohtang, Manali, India</h4>
+              <ul class="d-flex">
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                
+              </ul>
+              <p class="mt-3">Rohtang Pass. It is a high mountain pass on the eastern Pir Panjal Range of the Himalayas around 51 km from Manali. Himachal Pradesh</p>
+              <p class="duration mt-2"><span class="fa fa-clock-o mr-2"></span><strong>Duration</strong> : 7 Days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-4">
+        <div class="grids-tem-one">
+          <div class="row">
+            <div class="col-sm-5 grids-img-left">
+              <img src="images/servicemussorie.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-7 right-cont">
+              <h4 class="mb-2 let mt-sm-0 mt-2 tm-clr">Mussoorie, Uttarakhand, India</h4>
+              <ul class="d-flex">
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+              </ul>
+              <p class="mt-3">Mussoorie is a hill station  in the Dehradun District of the Indian state of Uttarakhand.</p>
+              <p class="duration mt-2"><span class="fa fa-clock-o mr-2"></span><strong>Duration</strong> : 5 Days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-lg-3">
+      <div class="col-lg-6 mt-4">
+        <div class="grids-tem-one">
+          <div class="row">
+            <div class="col-sm-5 grids-img-left">
+              <img src="images/servicegoa.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-7 right-cont">
+              <h4 class="mb-2 let mt-sm-0 mt-2 tm-clr">Candolim ,Goa</h4>
+              <ul class="d-flex">
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+              </ul>
+              <p class="mt-3">Goa is a state in western India with coastlines stretching along the Arabian Sea. </p>
+              <p class="duration mt-2"><span class="fa fa-clock-o mr-2"></span><strong>Duration</strong> : 5 Days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-4">
+        <div class="grids-tem-one">
+          <div class="row">
+            <div class="col-sm-5 grids-img-left">
+              <img src="images/Dharamshala.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-7 right-cont">
+              <h4 class="mb-2 mt-sm-0 mt-2 let tm-clr">Dharamshala , Himachal Pradesh</h4>
+              <ul class="d-flex">
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+                <li><span class="fa fa-star"></span></li>
+              </ul>
+              <p class="mt-3">Dharamshala is a city in the Indian state of Himachal Pradesh. Surrounded by cedar forests on the edge of the Himalayas, this hillside city is home to the Dalai Lama</p>
+              <p class="duration mt-2"><span class="fa fa-clock-o mr-2"></span><strong>Duration</strong> : 6 Days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
